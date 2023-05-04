@@ -27,7 +27,7 @@ This mapping table links the interest_id with their relevant interest informatio
 
 ![intmap](https://user-images.githubusercontent.com/130475600/236233498-6e37d4e6-541b-408f-a640-046168df91d8.PNG)
 
-#Case Study Questions
+# Case Study Questions
 The following questions can be considered key business questions that are required to be answered for the Fresh Segments team.
 Most questions can be answered using a single query however some questions are more open ended and require additional thought and not just a coded solution!
 

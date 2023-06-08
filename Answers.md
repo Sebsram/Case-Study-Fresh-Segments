@@ -39,3 +39,25 @@ Since we don't have any information about the null values, and the reason why th
 |map_id_count | metrics_id_count  |not_in_metric | not_in_map |
 | ---------- | ----- | ---------- | ----- |
 |   1209         | 1202  |      null      | 7  |
+
+**5.Summarise the id values in the fresh_segments.interest_map by its total record count in this table**
+
+![a5](https://github.com/Sebsram/Case-Study-Fresh-Segments/assets/130475600/b6d16851-1768-492c-9a39-a6c845b6ff9a)
+
+| count |
+| ----- |
+| 1209  |
+
+**6. What sort of table join should we perform for our analysis and why? Check your logic by checking the rows where interest_id = 21246 in your joined output and include all columns from fresh_segments.interest_metrics and all columns from fresh_segments.interest_map except from the id column.**
+
+INNER JOIN is the most appropiate join for this question
+
+![a6](https://github.com/Sebsram/Case-Study-Fresh-Segments/assets/130475600/a1186bb8-f8df-4b72-8ccd-c731a1bfcd80)
+
+**7.Are there any records in your joined table where the month_year value is before the created_at value from the fresh_segments.interest_map table? Do you think these values are valid and why?**
+
+![a7](https://github.com/Sebsram/Case-Study-Fresh-Segments/assets/130475600/033dce79-5316-4f1c-a8a1-3ee04ed2bb83)
+
+| count |
+| ----- |
+| 188 |

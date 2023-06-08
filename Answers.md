@@ -61,3 +61,19 @@ INNER JOIN is the most appropiate join for this question
 | count |
 | ----- |
 | 188 |
+
+# Interest Analysis
+**1.Which interests have been present in all month_year dates in our dataset?**
+We start by checking the number of unique months in our dataset
+
+![b1a](https://github.com/Sebsram/Case-Study-Fresh-Segments/assets/130475600/8d7c424c-19ac-422a-b638-b6f88225a82e)
+
+| unique_month_year |
+| ----------------- |
+| 14                |
+
+![b1b](https://github.com/Sebsram/Case-Study-Fresh-Segments/assets/130475600/27861f89-ebda-4557-b177-44e79cdeb0bd)
+
+| t_months | count |
+| -------- | ----- |
+| 14       | 480   |

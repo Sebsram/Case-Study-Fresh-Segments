@@ -34,3 +34,8 @@ Since we don't have any information about the null values, and the reason why th
 
 **4. How many interest_id values exist in the fresh_segments.interest_metrics table but not in the fresh_segments.interest_map table? What about the other way around?**
 
+![a4](https://github.com/Sebsram/Case-Study-Fresh-Segments/assets/130475600/1326c5bc-66d0-4eb7-94f7-35e663313f13)
+
+|map_id_count | metrics_id_count  |not_in_metric | not_in_map |
+| ---------- | ----- | ---------- | ----- |
+|   1209         | 1202  |      null      | 7  |
